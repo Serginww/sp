@@ -3,8 +3,8 @@ body {
             
             overflow-x: hidden; 
             background:linear-gradient(180deg,rgba(255,0,0,1)0%,white 50%,black 100%);
-            height: 705px;
-            padding: 0;
+            height: 768px;
+            
             
       }
     .painel{
@@ -50,7 +50,7 @@ body {
             width: 50%; /* ajuste conforme necessário */
             height:50; /* mantém a proporção original */
         }
-@media screen and (max-width:705px){
+@media screen and (max-width:768px){
     .container {
         display: block;
         background-image: none;
