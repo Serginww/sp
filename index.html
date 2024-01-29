@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do são paulo terça feira</title>
+
+    <link rel ="stylesheet" href="css/style.css "/>
+
+</head>
+<body>
+   <div class = "painel">
+        <h1>  Terça é dia de classico né ??</h1>
+
+        <div>
+        <img src="image/luciano.gif" alt="" >
+     </div>
+     <h2>O Corinthias vai ganhar o São Paulo na terça ?</h2>
+     <button id = "sim" onclick="parabens()">sim</button>
+   
+     <button onmouseover="fuja()" id="nao"> não </button>
+    </div>
+
+
+
+
+
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+
+        }
+        function parabens (){
+            alert("RESPOSTA CERTA, VAMOS SÃO PAULO!!!!!!!")
+        }
+    </script>
+    
+</body>
+</html>

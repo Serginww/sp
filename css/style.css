@@ -1,0 +1,51 @@
+
+body {
+            
+            overflow-x: hidden; 
+            background:linear-gradient(180deg,rgba(255,0,0,1)0%,white 50%,black 100%);
+            height: 648px;
+            
+      }
+    .painel{
+
+        margin: auto;
+        margin-top: 3%;
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 90%;
+    }
+
+    #sim{
+      
+        
+        height: 50px;
+        width: 70px;
+        background-color: red ;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        margin-top: 20px;
+        margin-left: -80px;
+
+    }
+    #nao{
+        position: absolute;
+        height: 50px;
+        width: 70px;
+        background-color: red;
+        border:1px solid white;
+        border-radius: 10px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+    img {
+            width: 50%; /* ajuste conforme necessário */
+            height:50; /* mantém a proporção original */
+        }
